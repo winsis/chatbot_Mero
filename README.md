@@ -1,6 +1,6 @@
 # Proyecto Chatbot de Peluquería, Barbería y Tatuajes Mero
 
-El proyecto que se presenta fue diseñado en IBM Watson, como resultado de la investigación de chatbot para emprendimiento.
+El proyecto presentado fue diseñado en IBM Watson, como resultado de la investigación de chatbot para emprendimiento de los usuarios del bono de desarrollo humano - CDH.
 
 # Skill - Venta de Arroz
 
