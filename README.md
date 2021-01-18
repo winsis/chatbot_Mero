@@ -4,12 +4,13 @@ El proyecto presentado fue diseñado en IBM Watson, como resultado de la investi
 
 # Skill - Mero Tatto
 
-Lenguaje: español
+Lenguaje: español, 
 Datos entrenados:
-12 intenciones.
-6 entidades.
-73   diálogos
-Versión: 1.0
+12 intenciones, 
+6 entidades, 
+73 diálogos.
+
+## Versión: 1.0
 
 
 
