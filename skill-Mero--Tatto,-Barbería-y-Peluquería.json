@@ -1,0 +1,2651 @@
+{
+  "intents": [
+    {
+      "intent": "about",
+      "examples": [
+        {
+          "text": "¿a qué horas atiende"
+        },
+        {
+          "text": "¿A qué se dedican?"
+        },
+        {
+          "text": "¿Cómo los encuentro?"
+        },
+        {
+          "text": "Cuál es la dirección de su local"
+        },
+        {
+          "text": "¿Cuáles son sus servicios?"
+        },
+        {
+          "text": "¿Cuál es su emprendimiento?"
+        },
+        {
+          "text": "¿Cuántos años de experiencia tienen?"
+        },
+        {
+          "text": "¿Cuántos años están en el mercado?"
+        },
+        {
+          "text": "¿Dónde están?"
+        },
+        {
+          "text": "¿En dónde están ubicados?"
+        },
+        {
+          "text": "¿en qué horarios atiende?"
+        },
+        {
+          "text": "¿Horario de atención?"
+        },
+        {
+          "text": "me puede dar mas información"
+        },
+        {
+          "text": "¿Qué emprende?"
+        },
+        {
+          "text": "¿Qué hacen?"
+        },
+        {
+          "text": "que haces"
+        },
+        {
+          "text": "que ofreces"
+        },
+        {
+          "text": "¿Qué servicios ofrecen?"
+        },
+        {
+          "text": "¿Quiénes son ustedes?"
+        },
+        {
+          "text": "Quiero más información sobre el negocio"
+        }
+      ],
+      "description": "Frases con las intenciones de usuario para las preguntas acerca del emprendimiento"
+    },
+    {
+      "intent": "agendar_cita",
+      "examples": [
+        {
+          "text": "Agéndame una cita para el Sábado"
+        },
+        {
+          "text": "Apenas me paguen voy, ¿te parece?"
+        },
+        {
+          "text": "¿Cuándo puedo ir?"
+        },
+        {
+          "text": "Estas disponible para hoy"
+        },
+        {
+          "text": "más tarde voy"
+        },
+        {
+          "text": "Me gustaría ir el fin de semana"
+        },
+        {
+          "text": "Me puedes agendar una cita"
+        },
+        {
+          "text": "quiero un corte de cabello para mañana"
+        },
+        {
+          "text": "Tendrá disponible el horario de 5 de la tarde"
+        }
+      ],
+      "description": "Intenciones con las frases para reservar una cita"
+    },
+    {
+      "intent": "Consulta_precio",
+      "examples": [
+        {
+          "text": "a que precios"
+        },
+        {
+          "text": "Ayúdame con el precio de la barba"
+        },
+        {
+          "text": "Bro, me gusta tu trabajo. Quiero un tatto en el brazo ¿cuánto me cobras?"
+        },
+        {
+          "text": "Buenas noches amigo, una pregunta que precio tendrá un tatto así como este."
+        },
+        {
+          "text": "Corte de cabello para niños ¿cuánto cuesta?"
+        },
+        {
+          "text": "Cuál es el precio"
+        },
+        {
+          "text": "cual es el precio de los cortes ?"
+        },
+        {
+          "text": "Cual es el valor?"
+        },
+        {
+          "text": "Cuánto cuesta un corte de cabello"
+        },
+        {
+          "text": "El precio de corte de caballo y lavado."
+        },
+        {
+          "text": "Me gustaría saber le precio de este tattu."
+        },
+        {
+          "text": "Que precio tienen los tatuajes"
+        }
+      ],
+      "description": "Intenciones de usuario con las frases para consulta de precios de los servicios."
+    },
+    {
+      "intent": "Consulta_servicio",
+      "examples": [
+        {
+          "text": "Compa me quiero hacer una tatuaje, puede dar más información de los tatto"
+        },
+        {
+          "text": "Corte de pelo para mujer"
+        },
+        {
+          "text": "¿Está disponible el servicio de barbería?"
+        },
+        {
+          "text": "¿Está disponible el servicio de corte de cabello?"
+        },
+        {
+          "text": "¿Está disponible el servicio de Peluquería?"
+        },
+        {
+          "text": "¿Está disponible el servicio de Tatuajes?"
+        },
+        {
+          "text": "Hace corte de cabello para niños"
+        },
+        {
+          "text": "Hermano, estuve revisando sus trabajos y me gustaron tus diseños. ¿Quiero hacerme un tatuaje?"
+        },
+        {
+          "text": "Me gusta un tatuaje"
+        },
+        {
+          "text": "quiero hacerme un corte de cabello"
+        },
+        {
+          "text": "Quiero un tatto"
+        },
+        {
+          "text": "Tiene algún catálogo de corte de cabello para hombre?"
+        },
+        {
+          "text": "Tiene modelos de corte?"
+        }
+      ],
+      "description": "Frases con las intenciones de usuario que quieren un tatuaje, barbería y peluquería"
+    },
+    {
+      "intent": "consulta_servicio_no_disponible",
+      "examples": [
+        {
+          "text": "¿Cuánto cuesta pintarme la uñas de los pies?"
+        },
+        {
+          "text": "El precio de un maquillado profesional"
+        },
+        {
+          "text": "¿Está disponible el servicio de manicura?"
+        },
+        {
+          "text": "¿Está disponible el servicio de pedicure?"
+        },
+        {
+          "text": "¿Hace mechas?"
+        },
+        {
+          "text": "Hace piercings"
+        },
+        {
+          "text": "Hazme un alisado con keratina"
+        },
+        {
+          "text": "Me podría decir el costo por pintarme el cabello de rubio"
+        },
+        {
+          "text": "Me podrías decir cuánto cuesta un alisado de cabello"
+        },
+        {
+          "text": "¿Me puede maquillar?"
+        },
+        {
+          "text": "Me quiero hacer la manicure"
+        },
+        {
+          "text": "Me quiero hacer la pedicure"
+        },
+        {
+          "text": "Quiero hacerme un tinturado de cabello"
+        },
+        {
+          "text": "Quiero pintarme el cabello"
+        },
+        {
+          "text": "Quiero pintarme la uñas"
+        },
+        {
+          "text": "Quiero un alisado de cabello"
+        },
+        {
+          "text": "Una coloración de cabello cuánto cuesta"
+        },
+        {
+          "text": "Un tratamiento de cabello completo, por favor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedidas",
+      "examples": [
+        {
+          "text": "Adiós"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "gracias hasta luego"
+        },
+        {
+          "text": "Hasta luego"
+        },
+        {
+          "text": "hasta mañana"
+        },
+        {
+          "text": "hasta otro momento"
+        },
+        {
+          "text": "hasta pronto"
+        },
+        {
+          "text": "me despido"
+        },
+        {
+          "text": "nada"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "nos vemos luego"
+        },
+        {
+          "text": "Saludos"
+        }
+      ],
+      "description": "Frases utilizadas para las despedidas de los visitantes"
+    },
+    {
+      "intent": "evaluacin",
+      "examples": [
+        {
+          "text": "Hola Roxybot voy a evaluarte"
+        },
+        {
+          "text": "Iniciar encuesta"
+        },
+        {
+          "text": "Iniciar encuesta de satisfacción al cliente"
+        },
+        {
+          "text": "Iniciar evaluación"
+        },
+        {
+          "text": "Muéstrame el cuestionario de preguntas"
+        },
+        {
+          "text": "Roxybot dame la encuesta"
+        },
+        {
+          "text": "Roxybot inicia la evaluación"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gracias",
+      "examples": [
+        {
+          "text": "Admirable su trabajo"
+        },
+        {
+          "text": "Excelente"
+        },
+        {
+          "text": "Excelente trabajo"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Gracias luego los visitaré"
+        },
+        {
+          "text": "Gracias por el apoyo"
+        },
+        {
+          "text": "Gracias por el consejo"
+        },
+        {
+          "text": "Gracias por la información"
+        },
+        {
+          "text": "Muchas gracias"
+        },
+        {
+          "text": "Muy amable"
+        }
+      ],
+      "description": "Frases para dar gracias por el trabajo realizado."
+    },
+    {
+      "intent": "insultos",
+      "examples": [
+        {
+          "text": "bobo"
+        },
+        {
+          "text": "eres tonto"
+        },
+        {
+          "text": "es basura"
+        },
+        {
+          "text": "Esto no sirve"
+        },
+        {
+          "text": "Me hiciste pasar tiempo"
+        },
+        {
+          "text": "no sirves para nada"
+        },
+        {
+          "text": "que idiota"
+        },
+        {
+          "text": "robot imbécil"
+        }
+      ],
+      "description": "Frases o palabras mal intencionadas, comentarios inapropiados, insultos, etc."
+    },
+    {
+      "intent": "quejas",
+      "examples": [
+        {
+          "text": "Esta horrible el tatuaje que me hice"
+        },
+        {
+          "text": "Hoy me hice un corte de cabello, y esta feo, no me gustó, y eso me molesta"
+        },
+        {
+          "text": "Les falta mucho por aprender"
+        },
+        {
+          "text": "No saben nada, aun les falta mucho."
+        },
+        {
+          "text": "Pésimo servicio que dan"
+        }
+      ],
+      "description": "Frases o intenciones para referirse a la quejas de usuario."
+    },
+    {
+      "intent": "salir",
+      "examples": [
+        {
+          "text": "Cambié de opinión, no quiero comprar nada"
+        },
+        {
+          "text": "Cancelar el proceso"
+        },
+        {
+          "text": "Detener la venta"
+        },
+        {
+          "text": "Espera, cancela eto"
+        },
+        {
+          "text": "No gracias"
+        },
+        {
+          "text": "no importa"
+        },
+        {
+          "text": "no quiero"
+        },
+        {
+          "text": "para por favor"
+        },
+        {
+          "text": "quiero parar"
+        },
+        {
+          "text": "¡Salir!"
+        },
+        {
+          "text": "terminar"
+        }
+      ]
+    },
+    {
+      "intent": "saludos",
+      "examples": [
+        {
+          "text": "Buena noche"
+        },
+        {
+          "text": "Buenas noches"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Buena tarde"
+        },
+        {
+          "text": "Buen día"
+        },
+        {
+          "text": "Buenos días"
+        },
+        {
+          "text": "como han pasado"
+        },
+        {
+          "text": "Hey, buenas"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola como están"
+        },
+        {
+          "text": "Hola como han pasado"
+        }
+      ],
+      "description": "Frases utilizadas para los saludos."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "escala",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "numeros10",
+          "synonyms": [
+            "([0-10]{1,2})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escala_likert",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Insatisfecho",
+          "synonyms": [
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muy insatisfecho",
+          "synonyms": [
+            "1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muy satisfecho",
+          "synonyms": [
+            "5"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Neutral",
+          "synonyms": [
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Satisfecho",
+          "synonyms": [
+            "4"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escala_util",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No muy útil",
+          "synonyms": [
+            "2",
+            "no muy util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No, nada útil",
+          "synonyms": [
+            "1",
+            "no nada util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sí, bastante útil",
+          "synonyms": [
+            "3",
+            "si bastante util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sí, muy útil",
+          "synonyms": [
+            "4",
+            "si muy util"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "respuesta_condicional",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "BAD",
+            "de ningún modo",
+            "en absoluto",
+            "jamás",
+            "mal",
+            "me olvidé",
+            "nada",
+            "Negativo",
+            "no me importa",
+            "nones",
+            "noo",
+            "nooo",
+            "noooo",
+            "no quiero",
+            "no quiero nada",
+            "nunca",
+            "olvídalo",
+            "ya no quiero"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Si",
+          "synonyms": [
+            "Afirmativo",
+            "bien",
+            "bueno",
+            "claro",
+            "efectivamente",
+            "listo",
+            "listo le confirmo",
+            "OK",
+            "ok me parece bien",
+            "perfecto",
+            "por supuesto",
+            "Sí",
+            "sii",
+            "siiii",
+            "Si, por favor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tal vez",
+          "synonyms": [
+            "acaso",
+            "a lo mejor",
+            "posiblemente",
+            "quizá",
+            "quizás"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tipo_productos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "barbería",
+          "synonyms": [
+            "corte de barba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peluquería",
+          "synonyms": [
+            "corte de cabello"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tatuajes",
+          "synonyms": [
+            "tatoo",
+            "tatto",
+            "tattoo",
+            "tattu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_servicio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "SB",
+          "synonyms": [
+            "Servicio de barbería"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SP",
+          "synonyms": [
+            "Servicio de peluquería"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ST",
+          "synonyms": [
+            "Servicio de tatuaje"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. Soy tu asistente virtual, ¿Como puedo llamarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              },
+              {
+                "text": "¿No te entendí?, Pregúntame por mi emprendimiento. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_9_1605486920103",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1610927734155",
+      "context": {
+        "servicio_online": "@escala_likert"
+      },
+      "conditions": "@escala_likert",
+      "event_name": "input",
+      "dialog_node": "handler_1_1610927734169"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1605842539166",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1605842539182",
+      "previous_sibling": "handler_3_1605842539182"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1605842539166",
+      "event_name": "input",
+      "dialog_node": "handler_3_1605842539182"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 2 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Las respuestas dadas por nuestro agente virtual le fueron de utilidad?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "4 - Sí, muy útil",
+                "value": {
+                  "input": {
+                    "text": "Sí, muy útil"
+                  }
+                }
+              },
+              {
+                "label": "3 - Sí, bastante útil",
+                "value": {
+                  "input": {
+                    "text": "Sí, bastante útil"
+                  }
+                }
+              },
+              {
+                "label": "2 - No muy útil",
+                "value": {
+                  "input": {
+                    "text": "No muy útil"
+                  }
+                }
+              },
+              {
+                "label": "1 - No, nada útil",
+                "value": {
+                  "input": {
+                    "text": "No, nada útil"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1610928304014",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1610928304015",
+      "previous_sibling": "handler_5_1610928304015"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1610928306153",
+      "context": {
+        "respuesta_condicional": "@respuesta_condicional"
+      },
+      "conditions": "@respuesta_condicional",
+      "event_name": "input",
+      "dialog_node": "handler_3_1610928306154"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bien que los hayas disfrutado, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1610927734155",
+      "conditions": "$servicio_online==\"Muy satisfecho\" or $servicio_online==\"Satisfecho\"",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1610928542919",
+      "previous_sibling": "handler_9_1610927734169"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 3 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Recomendarías nuestros servicios a un amigo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "Si"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1610928306153",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1610928306154",
+      "previous_sibling": "handler_3_1610928306154"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1610928304014",
+      "context": {
+        "servicio_respuesta": "@escala_util"
+      },
+      "conditions": "@escala_util",
+      "event_name": "input",
+      "dialog_node": "handler_5_1610928304015"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1605844191091",
+      "context": {
+        "tipo": "@tipo_productos"
+      },
+      "conditions": "@tipo_productos",
+      "event_name": "input",
+      "dialog_node": "handler_6_1605844191103"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, gracias por usar nuestros servicios"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "#salir",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1610928353843",
+      "previous_sibling": "node_9_1610929045109"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpas por haberte decepcionado, aún estoy mejorando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1610927734155",
+      "conditions": "$servicio_online==\"Muy insatisfecho\" or $servicio_online==\"Insatisfecho\"",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1610928556354",
+      "previous_sibling": "handler_3_1610928542919"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excelente, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610928304014",
+      "conditions": "$servicio_respuesta==\"Sí, muy útil\" or $servicio_respuesta==\"Sí, bastante útil\"",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1610928716079",
+      "previous_sibling": "handler_8_1610928714180"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mil disculpas, mi diseñador no me ha entrenado bien, le haré conocer tu respuesta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610928304014",
+      "conditions": "$servicio_respuesta==\"No, nada útil\" or $servicio_respuesta==\"No muy útil\"",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1610928714180",
+      "previous_sibling": "handler_3_1610928304015"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Tienes la intención de agendar una cita, dinos en que servicio"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1605844191091",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1605844191103",
+      "previous_sibling": "handler_6_1605844191103"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 1 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Qué tan satisfecho estás con la atención de Roxybot?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "5 - Muy satisfecho",
+                "value": {
+                  "input": {
+                    "text": "Muy satisfecho"
+                  }
+                }
+              },
+              {
+                "label": "4 - Satisfecho",
+                "value": {
+                  "input": {
+                    "text": "Satisfecho"
+                  }
+                }
+              },
+              {
+                "label": "3 -Neutral",
+                "value": {
+                  "input": {
+                    "text": "Neutral"
+                  }
+                }
+              },
+              {
+                "label": "2 - Muy insatisfecho",
+                "value": {
+                  "input": {
+                    "text": "Muy insatisfecho"
+                  }
+                }
+              },
+              {
+                "label": "1 - Insatisfecho",
+                "value": {
+                  "input": {
+                    "text": "Insatisfecho"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1610927734155",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1610927734169",
+      "previous_sibling": "handler_1_1610927734169"
+    },
+    {
+      "type": "standard",
+      "title": "saludos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. Soy RoxyBot tu asistente virtual"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://drive.google.com/uc?export=view&id=1MQWebFly10eEoyaWcaa2g_gz8byskcgR",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Cómo puedo ayudarte?"
+              },
+              {
+                "text": "¿En qué podemos servirle?"
+              },
+              {
+                "text": "¿Tienes alguna pregunta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes preguntarme por los servicios de barbería, peluquería y tatuajes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Por favor selecciona un servicio:",
+            "options": [
+              {
+                "label": "Barbería",
+                "value": {
+                  "input": {
+                    "text": "SB"
+                  }
+                }
+              },
+              {
+                "label": "Peluquería",
+                "value": {
+                  "input": {
+                    "text": "SP"
+                  }
+                }
+              },
+              {
+                "label": "Tatuajes",
+                "value": {
+                  "input": {
+                    "text": "ST"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#saludos",
+      "dialog_node": "node_10_1605486954976"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento que no te haya gustado el servicio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Disculpas de antemano, en tu próxima visita te haré un descuento especial"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#quejas",
+      "dialog_node": "node_10_1607225110292",
+      "previous_sibling": "node_9_1605488980227"
+    },
+    {
+      "type": "standard",
+      "title": "Esperando",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💭"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_10_1610929078428",
+      "previous_sibling": "node_7_1610930223161"
+    },
+    {
+      "type": "standard",
+      "title": "Encuesta de satisfacción",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por tomarte un momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "De este modo nos ayudas a crecer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1610927720616"
+      },
+      "conditions": "#evaluacin",
+      "dialog_node": "node_1_1610927659317",
+      "previous_sibling": "node_10_1610929078428"
+    },
+    {
+      "type": "standard",
+      "title": "gracias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada. Por favor hazme saber si necesita algo más ✍."
+              },
+              {
+                "text": "El gusto es mío. "
+              },
+              {
+                "text": "Gracias a ti. Avíseme si necesitas algo más."
+              },
+              {
+                "text": "Mi intención es servirle. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#gracias",
+      "dialog_node": "node_2_1605487237326",
+      "previous_sibling": "node_10_1605486954976"
+    },
+    {
+      "type": "standard",
+      "title": "Menú de opciones",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encantada de conocerte, $name. \n¿Como puedo ayudarte? Puedes preguntarme por barbería, peluquería y tatuajes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Selecciona un servicio:",
+            "options": [
+              {
+                "label": "Barbería",
+                "value": {
+                  "input": {
+                    "text": "SB"
+                  }
+                }
+              },
+              {
+                "label": "Peluquería",
+                "value": {
+                  "input": {
+                    "text": "SP"
+                  }
+                }
+              },
+              {
+                "label": "Tatuajes",
+                "value": {
+                  "input": {
+                    "text": "ST"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1605622164402"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consulta_precio && @tipo_productos",
+      "dialog_node": "node_2_1605842925185",
+      "previous_sibling": "node_5_1605711228306"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos los mejores cortes de cabello para damas, caballeros y niños."
+              },
+              {
+                "text": "Tenemos un corte ideal para ti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te cuento ayer me hice un lindo corte de cabello, e invité a mis amigos y amigas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te paso la ubicación para que nos visites"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉 https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1605486954976",
+      "context": {
+        "tipo": "peluquería"
+      },
+      "conditions": "@tipo_servicio:SP",
+      "dialog_node": "node_2_1607213198162"
+    },
+    {
+      "type": "standard",
+      "title": "about",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por tu pregunta. Somos un emprendimiento que le ofrece el servicio de Tatto, Barbería y Peluquería."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Estamos ubicados en el Parque Ecológico frente a la pista de ciclismo en la Ciudad de Machala"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Atendemos de Lunes a Viernes de 10 A.M. a 8 P.M., Fines de Semana y Feriados de 9 A.M. a 9 P.M."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "actions": [
+        {
+          "name": "CLOSE_CONVERSATION",
+          "type": "client",
+          "result_variable": "none"
+        }
+      ],
+      "conditions": "#about",
+      "dialog_node": "node_3_1605488012513",
+      "previous_sibling": "node_4_1605487592491"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te ofrecemos corte de cabello y barba para caballeros más exigentes."
+              },
+              {
+                "text": "Tenemos cortes y lavado de cabello y barba en varios estilos para el hombre casual y moderno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Te cuento invité a mi vecino y se hizo un corte completo de cabello y barba, y quedó espectacular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te pasó la ubicación para que nos visites "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1605486954976",
+      "context": {
+        "tipo": "barbería"
+      },
+      "conditions": "@tipo_servicio:SB",
+      "dialog_node": "node_3_1607213198162",
+      "previous_sibling": "node_2_1607213198162"
+    },
+    {
+      "type": "standard",
+      "title": "despedidas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encantada de hablarte hoy. Esperamos que regreses pronto."
+              },
+              {
+                "text": "Fue un placer atenderlo, hasta pronto."
+              },
+              {
+                "text": "Hasta pronto, que tenga muchos éxitos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#despedidas",
+      "dialog_node": "node_4_1605487592491",
+      "previous_sibling": "node_2_1605487237326"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te ofrecemos corte de cabello y barba para caballeros más exigentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605622164402",
+      "context": {
+        "tipo": "barbería"
+      },
+      "conditions": "@tipo_servicio:SB",
+      "dialog_node": "node_4_1605708352891",
+      "previous_sibling": "node_9_1605708350236"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos los mejores diseños en tatuajes, mira mi Instagram 👉 https://bit.ly/3mgxHeX"
+              },
+              {
+                "text": "Tenemos los mejores diseños, visita 👉https://bit.ly/3mgxHeX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1605486954976",
+      "context": {
+        "tipo": "tatuajes"
+      },
+      "conditions": "@tipo_servicio:ST",
+      "dialog_node": "node_4_1607213198162",
+      "previous_sibling": "node_3_1607213198162"
+    },
+    {
+      "type": "standard",
+      "title": " ",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consulta_servicio && @tipo_productos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1605711228306",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "consulta precio",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consulta_precio",
+      "dialog_node": "node_6_1605885166759",
+      "previous_sibling": "node_8_1605846146972"
+    },
+    {
+      "type": "standard",
+      "title": "consulta servicio",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consulta_servicio",
+      "dialog_node": "node_6_1605885178972",
+      "previous_sibling": "node_6_1605885166759"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos los mejores diseños en tatuajes,  mira mis diseños en Instagram 👉   https://bit.ly/3mgxHeX"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605622164402",
+      "context": {
+        "tipo": "tatuajes"
+      },
+      "conditions": "@tipo_servicio:ST",
+      "dialog_node": "node_7_1605708355283",
+      "previous_sibling": "node_4_1605708352891"
+    },
+    {
+      "type": "frame",
+      "parent": "node_1_1610927659317",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1610929045109"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1610927720616"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aún no ofrecemos el servicio solicitado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Muy pronto ampliaremos nuestro catálogo de productos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#consulta_servicio_no_disponible",
+      "dialog_node": "node_7_1610930223161",
+      "previous_sibling": "node_6_1605885178972"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#agendar_cita && @tipo_productos",
+      "dialog_node": "node_8_1605843911490",
+      "previous_sibling": "node_2_1605842925185"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#agendar_cita",
+      "dialog_node": "node_8_1605846146972",
+      "previous_sibling": "node_8_1605843911490"
+    },
+    {
+      "type": "folder",
+      "title": "Chitchat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1605486920103",
+      "previous_sibling": "node_1_1610927659317"
+    },
+    {
+      "type": "standard",
+      "title": "insultos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esas palabras no eran necesarias"
+              },
+              {
+                "text": "Estoy aprendiendo, para servirte mejor"
+              },
+              {
+                "text": "Por favor no hagas ese tipo de chistes"
+              },
+              {
+                "text": "Me gustaría ayudarte, pero creo que tu intención es la de molestar, adiós."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#insultos",
+      "dialog_node": "node_9_1605488980227",
+      "previous_sibling": "node_3_1605488012513"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te ofrecemos los servicios corte de cabello para damas y caballeros"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605622164402",
+      "context": {
+        "tipo": "peluquería"
+      },
+      "conditions": "@tipo_servicio:SP",
+      "dialog_node": "node_9_1605708350236"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por responder, ponemos a tú disposición el email maciassecret\\@gmail.com, para que nos escribas tus dudas o recomendación"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1610929078428"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1610929045109"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro tenemos diseños de tatuajes exclusivos desde USD 25 dólares (5cm)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885166759",
+      "conditions": "$tipo==\"tatuajes\"",
+      "dialog_node": "response_10_1605885419985",
+      "previous_sibling": "response_8_1605885401504"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Gracias!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👏"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@respuesta_condicional:Si",
+      "dialog_node": "response_1_1610928898614",
+      "previous_sibling": "response_9_1610928897086"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos un corte ideal para ti."
+              },
+              {
+                "text": "Tenemos los mejores cortes de cabello para niños, damas y caballeros."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te cuento, ayer me hice un lindo corte de cabello, e invité a mis amigas y amigos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te pasó la ubicación para que nos visites."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605711228306",
+      "context": {
+        "tipo": "peluquería"
+      },
+      "conditions": "@tipo_productos:peluquería",
+      "dialog_node": "response_2_1605842621144"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos cortes de cabello desde USD 3,00 dólares."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605842925185",
+      "context": {
+        "tipo": "peluquería"
+      },
+      "conditions": "@tipo_productos:peluquería",
+      "dialog_node": "response_2_1605843575557"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto, escríbeme a mi WhatsApp 👉https://bit.ly/3meyAEN"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605846146972",
+      "conditions": "$tipo==\"tatuajes\"",
+      "dialog_node": "response_2_1605880855181",
+      "previous_sibling": "response_9_1605880834754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos un corte ideal para tí, visítanos a nuestro local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885178972",
+      "conditions": "$tipo==\"peluquería\"",
+      "dialog_node": "response_2_1605885565110",
+      "previous_sibling": "response_6_1605885496672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bien que los hayas disfrutado, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@escala_likert:(Muy satisfecho) || @escala_likert:Satisfecho",
+      "dialog_node": "response_2_1610928894531",
+      "previous_sibling": "response_7_1610927733704"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escríbeme a mi WhatsApp por favor 👉https://bit.ly/3meyAEN"
+              },
+              {
+                "text": "Perfecto escríbeme a mi WhatsApp por favor 👉https://bit.ly/3meyAEN, para agendar una cita."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605843911490",
+      "context": {
+        "tipo": "tatuajes"
+      },
+      "conditions": "@tipo_productos:tatuajes",
+      "dialog_node": "response_3_1605845109462",
+      "previous_sibling": "response_5_1605844909071"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpa, en este momento no puedo agendarte una cita, pero puedes visitarnos en la siguiente dirección 👉https://bit.ly/3oN1lKj"
+              },
+              {
+                "text": "Disculpa, no puedo agendarte una cita en este momento, te paso la ubicación en Google Maps 👉https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Si puedes me escribes al WhatsApp 👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605846146972",
+      "conditions": "$tipo==\"barbería\"",
+      "dialog_node": "response_4_1605880787305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Listo, escríbeme al WhatsApp 👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605846146972",
+      "conditions": "true",
+      "dialog_node": "response_4_1609691681875",
+      "previous_sibling": "response_2_1605880855181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cuando desees puedes tatuarte, solo agenda una cita, además te invito que visites mi local 👉https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605711228306",
+      "context": {
+        "tipo": "tatuajes"
+      },
+      "conditions": "@tipo_productos:tatuajes",
+      "dialog_node": "response_5_1605842774529",
+      "previous_sibling": "response_6_1605842717490"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En este momento no puedo agendarte una cita."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te paso mi contacto de WhatsApp 👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605843911490",
+      "context": {
+        "tipo": "peluquería"
+      },
+      "conditions": "@tipo_productos:peluquería",
+      "dialog_node": "response_5_1605844909071"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te encantará tener una barba bien definida, visítanos hoy mismo."
+              },
+              {
+                "text": "Tenemos cortes y lavado de cabello y barba en varios estilos para el hombre casual y moderno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te cuento invité a mi vecino y se hizo un corte completo de cabello y barba, y quedó espectacular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te pasó la ubicación para que nos visites "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605711228306",
+      "context": {
+        "tipo": "barbería"
+      },
+      "conditions": "@tipo_productos:barbería",
+      "dialog_node": "response_6_1605842717490",
+      "previous_sibling": "response_2_1605842621144"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, debes acercarte al local y preguntarle a tu barbero favorito."
+              },
+              {
+                "text": "¡Disculpa!, aún no sé los precios, mi jefe aún no me lo ha informado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1605842925185",
+      "context": {
+        "tipo": "barbería"
+      },
+      "conditions": "@tipo_productos:barbería",
+      "dialog_node": "response_6_1605843588475",
+      "previous_sibling": "response_2_1605843575557"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, debes acercarte al local y preguntarle a tu barbero favorito."
+              },
+              {
+                "text": "¡Disculpa!, aún no sé los precios, mi jefe aún no me lo ha informado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885166759",
+      "conditions": "$tipo==\"barbería\"",
+      "dialog_node": "response_6_1605885394790"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te encantará tener una barba bien definida, visítanos hoy mismo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885178972",
+      "conditions": "$tipo==\"barbería\"",
+      "dialog_node": "response_6_1605885496672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mil disculpas, mi diseñado no me ha entrenado bien, le haré conocer tu respuesta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@escala_util:(No, nada útil) || @escala_util:(No muy útil)",
+      "dialog_node": "response_6_1610928895826",
+      "previous_sibling": "response_2_1610928894531"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro tenemos diseños de tatuajes exclusivos desde USD 25 dólares (5cm)"
+              },
+              {
+                "text": "Te diseñamos un tatuaje de acuerdo a tu personalidad y gusto, desde USD 25 dólares (5cm)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Tu piel lucirá como una obra de arte, distintos tipos de tatto, que expresaran historia, sentimiento y rebeldía."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te paso mi Instagram para que veas los mejores diseños en tatuajes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3mgxHeX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605842925185",
+      "context": {
+        "tipo": "tatuajes"
+      },
+      "conditions": "@tipo_productos:tatuajes",
+      "dialog_node": "response_7_1605843595801",
+      "previous_sibling": "response_6_1605843588475"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En este momento no puedo agendarte una cita."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te paso mi contacto de WhatsApp 👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605843911490",
+      "context": {
+        "tipo": "barbería"
+      },
+      "conditions": "@tipo_productos:barbería",
+      "dialog_node": "response_7_1605845943669",
+      "previous_sibling": "response_3_1605845109462"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cuando desees puedes tatuarte, solo agenda una cita, además te invito que visites mi local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885178972",
+      "conditions": "$tipo==\"tatuajes\"",
+      "dialog_node": "response_7_1605885566567",
+      "previous_sibling": "response_2_1605885565110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpas por haberte decepcionado, aún estoy mejorando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@escala_likert:(Muy insatisfecho) || @escala_likert:Insatisfecho",
+      "dialog_node": "response_7_1610927733704",
+      "previous_sibling": "slot_7_1610928306153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenemos cortes de cabello desde los USD 3,00 dólares."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885166759",
+      "conditions": "$tipo==\"peluquería\"",
+      "dialog_node": "response_8_1605885401504",
+      "previous_sibling": "response_6_1605885394790"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los cortes de cabello los tenemos desde US$3.00,  los tatuajes desde US$25,00 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te paso mi WhatsApp para darte más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3meyAEN"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605885166759",
+      "conditions": "$tipo==\"\"",
+      "dialog_node": "response_8_1607189649537",
+      "previous_sibling": "response_10_1605885419985"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Estoy triste!, ¡a seguir mejorando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@respuesta_condicional:No",
+      "dialog_node": "response_8_1610928900162",
+      "previous_sibling": "response_1_1610928898614"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpa $name, en este momento no puedo agendarte una cita, pero puedes visitarnos en nuestro local. ubicado en 👉ttps://bit.ly/3oN1lKj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O si gustas escríbeme al WhatsApp 👉https://bit.ly/3qMweAm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605846146972",
+      "conditions": "$tipo==\"peluquería\"",
+      "dialog_node": "response_9_1605880834754",
+      "previous_sibling": "response_4_1605880787305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excelente, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610927720616",
+      "conditions": "@escala_util:(Sí, bastante útil) || @escala_util:(Sí, muy útil)",
+      "dialog_node": "response_9_1610928897086",
+      "previous_sibling": "response_6_1610928895826"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1605711228306",
+      "dialog_node": "slot_2_1605842539166",
+      "previous_sibling": "response_5_1605842774529"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1605843911490",
+      "variable": "$tipo",
+      "dialog_node": "slot_3_1605844191091",
+      "previous_sibling": "response_7_1605845943669"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1610927720616",
+      "variable": "$servicio_online",
+      "dialog_node": "slot_7_1610927734155",
+      "previous_sibling": "handler_6_1610928353843"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1610927720616",
+      "variable": "$respuesta_condicional",
+      "dialog_node": "slot_7_1610928306153",
+      "previous_sibling": "slot_8_1610928304014"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1610927720616",
+      "variable": "$servicio_respuesta",
+      "dialog_node": "slot_8_1610928304014",
+      "previous_sibling": "slot_7_1610927734155"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Mero  Tatto, Barbería y Peluquería",
+  "language": "es",
+  "description": ""
+}
