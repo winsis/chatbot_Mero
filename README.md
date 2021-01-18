@@ -2,7 +2,7 @@
 
 El proyecto presentado fue diseñado en IBM Watson, como resultado de la investigación de chatbot para emprendimiento de los usuarios del bono de desarrollo humano - CDH.
 
-# Skill - Venta de Arroz
+# Skill - Mero Tatto
 
 Lenguaje: español
 Datos entrenados:
